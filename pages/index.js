@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 
 const Home = () => (
-    <>
+    <div>
         <Head>
             <title>Home</title>
         </Head>
@@ -12,7 +12,7 @@ const Home = () => (
         <Link href="/users">
             <a>Usuários</a>
         </Link>
-    </>
+    </div>
 );
 
 export default Home;
