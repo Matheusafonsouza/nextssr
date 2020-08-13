@@ -3,7 +3,7 @@ import axios from 'axios';
 
 import Head from 'next/head';
 
-import withAnalytics from '../src/hocs/withAnalytics';
+import withAnalytics from '~/hocs/withAnalytics';
 
 const Detail = ({ user }) => (
     <div>
